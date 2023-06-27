@@ -2,4 +2,4 @@
 
 ### Welcome to my personal profile 
 
-![](https://github.com/mohieddine-kichli/mohieddine-kichli/blob/main/develop-web.gif)
+<img src="https://github.com/mohieddine-kichli/mohieddine-kichli/blob/main/develop-web.gif">
