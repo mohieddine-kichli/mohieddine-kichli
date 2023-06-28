@@ -4,12 +4,5 @@
 
 <img src="https://github.com/mohieddine-kichli/mohieddine-kichli/blob/main/develop-web.gif" height="250">
 
-<h1 id="header">Testing</h1>
+<h1 style="color:red">Testing</h1>
 
-
-<style>
-  #header {
-    color: red;
-  }
-  
-</style>
