@@ -1,4 +1,4 @@
-# :desktop_computer: Hello! I am Mohieddine Kichli
+# :desktop_computer: Hello! I'm Mohieddine Kichli
 
 ### Welcome to my personal profile 
 
