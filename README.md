@@ -1,5 +1,5 @@
-# :desktop_computer: Hello! I'm Mohieddine Kichli
+# :desktop_computer: Welcome!
 
 <div style="width: 100%;">
-  <h1>Hello world</h1>
+  <img src="welcome.svg" style="width: 100%;" alt="Click to see the source">
 </div>
