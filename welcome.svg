@@ -1,0 +1,120 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>
+            * {
+              margin: 0;
+              padding: 0;
+              color: inherit;
+              text-decoration: none;
+              list-style: none;
+              outline: none;
+              box-sizing: border-box;
+            }
+      
+            .container {
+              --color-main: #A22C29;
+              --color-primary: #FFB563;
+              --color-secondary: #BBE1C3;
+              --color-background: #161d27;
+              --color-text: #FFFCF2;
+              --color-pulse:#fef29e;
+              height: 400px;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+      
+              background-image: radial-gradient(var(--color-main), var(--color-primary), var(--color-secondary));
+              animation: border 3s linear infinite;
+              background-size: 200% 200%;
+              background-position: 0 0;
+              border: 10px solid;
+              border-color: var(--color-background);
+            }
+      
+            .container-text {
+              background: var(--color-background);
+              height: calc(100% - 10px);
+              width: calc(100% - 10px);
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              color: var(--color-text);
+              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            
+            .container-text > h1 {
+                text-align: center;
+                margin-bottom: 2.5rem;
+            }
+    
+            .more-info > ul {
+                text-align: right;
+                line-height: 1.5;
+            }
+    
+            .pulsate {
+                color: #FA7921;
+                opacity: 0.5;
+                font-weight: 400;
+                animation: pulse 3s ease-out infinite;
+            }
+      
+            @keyframes border {
+              0% { background-position: 0 0; }
+              20% { background-position: 100% 0; }
+              40% { background-position: 100% 100%; }
+              60% { background-position: 0 100%; }
+              100% { background-position: 0 0; }
+            }
+    
+            @keyframes pulse {
+                0% { 
+                    opacity: 0.3;
+                }
+                50% { 
+                    opacity: 1.0;
+                }
+                100% { 
+                    opacity: 0.3;
+                }
+            }
+      
+      
+            @media (prefers-color-scheme: light) {
+              .body {
+                --color-main: #1171ba;
+                --color-primary: #1399c6;
+                --color-secondary: #0e8c7f;
+                --color-background: #ffffff;
+                --color-text: #1E2952;
+                --color-pulse:#1171ba;
+              }
+            }
+      
+            @media (prefers-reduced-motion) {
+              .body {
+                animation: none;
+              }
+            }
+        </style>
+        <div class='container'>
+            <div class='container-text'>
+              <h1>
+                  <span><em>Hi there, my name is Mohieddine</em></span>
+              </h1>
+              <section class='more-info'>
+                <ul>
+                    <li>Full-Stack developer</li>
+                    <li>In the process of learning: <span class="pulsate">React</span></li>
+                    <li>I am aiming to create worthwile digital experiences</li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </foreignObject>
+</svg>
