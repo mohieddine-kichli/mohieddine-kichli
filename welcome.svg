@@ -59,6 +59,7 @@
                         color: #FA7921;
                         opacity: 0.5;
                         font-weight: 400;
+                        position: relative;
                         animation: pulse 3s ease-out infinite;
                     }
 
