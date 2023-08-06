@@ -2,6 +2,7 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
+                    
                     * {
                         margin: 0;
                         padding: 0;
@@ -54,14 +55,12 @@
                         text-align: right;
                         line-height: 1.5;
                     }
-<!-- 
+
                     .pulsate {
-                        color: #FA7921;
-                        opacity: 0.5;
+                        color: #FFB563;
                         font-weight: 400;
-                        position: relative;
-                        animation: pulse 3s ease-out infinite;
-                    } -->
+                        font-size: 20px;
+                    }
 
                     @keyframes border {
                         0% { background-position: 0 0; }
@@ -69,18 +68,6 @@
                         40% { background-position: 100% 100%; }
                         60% { background-position: 0 100%; }
                         100% { background-position: 0 0; }
-                    }
-
-                    @keyframes pulse {
-                        0% { 
-                            opacity: 0.3;
-                        }
-                        50% { 
-                            opacity: 1.0;
-                        }
-                        100% { 
-                            opacity: 0.3;
-                        }
                     }
             
             
@@ -109,7 +96,7 @@
                     <section class='more-info'>
                     <ul>
                         <li>Full-Stack developer</li>
-                        <li>In the process of learning: <span class="pulsate">React</span></li>
+                        <li>In the process of learning: <span class='pulsate'>React</span></li>
                         <li>I am aiming to create worthwile digital experiences</li>
                     </ul>
                     </section>
