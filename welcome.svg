@@ -54,14 +54,14 @@
                         text-align: right;
                         line-height: 1.5;
                     }
-
+<!-- 
                     .pulsate {
                         color: #FA7921;
                         opacity: 0.5;
                         font-weight: 400;
                         position: relative;
                         animation: pulse 3s ease-out infinite;
-                    }
+                    } -->
 
                     @keyframes border {
                         0% { background-position: 0 0; }
@@ -70,7 +70,7 @@
                         60% { background-position: 0 100%; }
                         100% { background-position: 0 0; }
                     }
-<!-- 
+
                     @keyframes pulse {
                         0% { 
                             opacity: 0.3;
@@ -81,7 +81,7 @@
                         100% { 
                             opacity: 0.3;
                         }
-                    } -->
+                    }
             
             
                     @media (prefers-color-scheme: light) {
